@@ -1,0 +1,188 @@
+html {
+    background-color: rgb(93, 93, 93);
+    color: rgb(255, 255, 255);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
+    width: 90%;
+}
+
+
+body {
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.header {
+    background-image: url(/IoT4Climate/recources/images/nature-banner-1.jpeg);
+    height: 225px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    text-align: center;
+    color: rgb(211, 211, 211);
+}
+
+header {
+    padding-top: 24px;
+}
+
+.right img{
+    width: 30%;
+    height: 400px;
+
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+div.box:nth-child(odd){
+    background-color: rgb(0, 131, 9);
+    font-size: larger;
+    float: left;
+}
+
+div.box img{
+    border: 3px solid #000000;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div.box h2:nth-child(odd){
+    color: rgba(1, 255, 111, 0.873);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #8c8c8c;
+}
+
+li a.active{
+    background-color: rgb(0, 167, 0);
+}
+
+li a:active{
+    background-color: rgb(0, 167, 0);
+}
+
+footer{
+    color: rgb(180, 180, 180);
+    background-color: rgb(1, 35, 64);
+    text-align: center;
+    font-size: smaller;
+}
+
+div.examples{
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 1px solid rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    column-fill: balance;
+    padding: 30px;
+}
+
+div.examples img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picsection2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+
+div.contact{
+    overflow: hidden;
+    background-color: grey;
+    height: 570px;
+}
+
+div.contact div.contactRight{
+    float: right;
+    width: 66.66%;
+    padding: 15px;
+    padding-top: 50px;
+    border: darkgreen 5px;
+    border-style: hidden hidden hidden solid;
+    
+
+}
+
+
+div.contact div.contactRight i {
+    vertical-align: -4px;
+    padding: 21px;
+    background-color: lightgreen;
+}
+
+div.contact div.contactLeft {   
+    float: left;
+    text-align: right;
+    padding: 40px;
+    padding-top: 50px;
+
+}
+
+
+div.contact input {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 80%;
+}
+
+div.contact input[type=submit]:hover {
+    background-color: #000000;
+}
+
+div.contact a {
+    color: lightgreen;
+    margin-left: 98%;
+    vertical-align: -280px;
+}
+
+.images1{
+    margin-left: 140px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    padding: 16px 140px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+a {
+    color: red;
+}
